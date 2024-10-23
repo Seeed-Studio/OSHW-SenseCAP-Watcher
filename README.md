@@ -36,6 +36,10 @@ SenseCAP Watcher is built on ESP32S3, incorporating a Himax WiseEye2 HX6538 AI c
 
     -[📎 SenseCAP Watcher v1.0 Schematic](./Hardware/SenseCAP_Watcher_v1.0_SCH.pdf)
 
+    -[📎Espressif ESP32-S3 Datasheet](./Hardware/esp32-s3_datasheet.pdf)
+
+    -[📎Himax HX6538-A Datasheet](./Hardware/HX6538_datasheet.pdf)
+
 - [📁 Documentation](./Documentation/): All Wiki documents about Watcher.
 
 ## SenseCAP Watcher Quick Start Guide
