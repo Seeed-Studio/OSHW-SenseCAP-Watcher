@@ -79,7 +79,7 @@ To proceed with binding your Watcher to the SenseCraft app, follow these steps:
 
 **1.** On your Watcher, rotate the wheel button clockwise to enter the QR code interface for binding the device.
 
-![](https://files.seeedstudio.com/wiki/watcher_getting_started/1.svg)
+![](https://files.seeedstudio.com/wiki/watcher_getting_started/1.svg | width=100)
 
 **2.** Open the SenseCraft app on your mobile device and tap the plus sign (+) in the top right corner to add your Watcher by scanning the QR code.
 
