@@ -88,9 +88,10 @@ Special thanks to all contributors and supporters that starred this repository.
 
 <a href="https://github.com/Seeed-Studio/OSHW-SenseCAP-Watcher/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=angular/angular-ja" />
-</a><br>
+</a><br><br><br>
 
-Do you like this project? Please join us or [give](https://github.com/Seeed-Studio/OSHW-SenseCAP-Watcher) a ⭐. This will help to attract more contributors.<br/>
+Do you like this project? Please join us or [give](https://github.com/Seeed-Studio/OSHW-SenseCAP-Watcher) a ⭐. This will help to attract more contributors.
+
 Do you have an idea or found a bug? Please open an [issue](https://github.com/Seeed-Studio/OSHW-SenseCAP-Watcher/issues/new/choose) or start a [discussion](https://github.com/Seeed-Studio/OSHW-SenseCAP-Watcher/discussions).
 
 
