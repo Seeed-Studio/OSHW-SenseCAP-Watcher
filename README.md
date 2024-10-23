@@ -54,7 +54,7 @@ https://files.seeedstudio.com/wiki/watcher_getting_started/watcher-packaging.mp4
 To power on your Watcher device, press and hold the wheel button located on the upper right corner for approximately 3 seconds until the Seeed Studio logo appears on the screen.
 
 <div align="center">
-<img src="./assets/power_on.gif" width="450" />
+<img src="./assets/power_on.gif" width="550" />
 </div>
 
 Once the logo is displayed, release the button and allow the device to complete its initialization process. After a few moments, the Watcher will display its main menu, indicating that it is ready for use.
@@ -69,9 +69,9 @@ After powering on your Watcher, if it has not been previously bound to a device,
 
 You can either scan the QR code or use the provided link to download the app.
 
-<div class="get_one_now_container" style={{textAlign: 'center'}}>
-    <a class="get_one_now_item" href="https://sensecraft-app-download.seeed.cc">
-            <strong><span><font color={'FFFFFF'} size={"4"}> Download APP 🖱️</font></span></strong>
+<div align="center">
+    <a href="https://sensecraft-app-download.seeed.cc">
+        <strong><span>Download APP 🖱️</span></strong>
     </a>
 </div>
 
@@ -81,34 +81,43 @@ To proceed with binding your Watcher to the SenseCraft app, follow these steps:
 
 **1.** On your Watcher, rotate the wheel button clockwise to enter the QR code interface for binding the device.
 
+<div align="center">
 <img src="https://files.seeedstudio.com/wiki/watcher_getting_started/1.svg" width="400" />
+</div>
 
 **2.** Open the SenseCraft app on your mobile device and tap the plus sign (+) in the top right corner to add your Watcher by scanning the QR code.
 
 **Ensure that your mobile device's Bluetooth permissions are enabled, as the binding process requires a Bluetooth connection.**
 
+<div align="center">
 <img src="https://files.seeedstudio.com/wiki/watcher_getting_started/2.svg" width="400" />
+</div>
 
 **3.** After successfully scanning the QR code, the app will navigate to the network configuration page. Select a 2.4GHz Wi-Fi network to connect your Watcher to the internet.
 
+<div align="center">
 <img src="https://files.seeedstudio.com/wiki/watcher_getting_started/3.svg" width="400" />
+</div>
 
 Tap the "Next" button to proceed.
 
 **4.** Choose a name for your Watcher and select an appropriate group for it.
 
+<div align="center">
 <img src="https://files.seeedstudio.com/wiki/watcher_getting_started/4.svg" width="400" />
+</div>
 
 Tap the "Finish" button to complete the setup process.
 
 **5.** The SenseCraft app will display a tutorial page, providing guidance on how to use your Watcher. Take a moment to familiarize yourself with the instructions.
 
+<div align="center">
 <img src="https://files.seeedstudio.com/wiki/watcher_getting_started/5.svg" width="400" />
+</div>
 
 Once the setup is complete, the app will open a chat window to communicate with your Watcher, while the Watcher will return to its main menu.
 
 With the binding process finished, your Watcher is now connected to the SenseCraft app, and you can start exploring its features and capabilities. The app serves as a convenient way to interact with your Watcher, adjust settings, and receive notifications remotely.
-
 
 ### Schedule a task for Watcher
 
@@ -126,7 +135,9 @@ To run a task from the Task Templates on your Watcher, follow these steps:
 
 **4.** Press the wheel button to select and start running the chosen task.
 
-![](https://files.seeedstudio.com/wiki/watcher_getting_started/run_template.gif)
+<div align="center">
+<img src="./assets/run_template.gif" width="550" />
+</div>
 
 Once the task begins, the Watcher will display an animated emoji face on the screen. This emoji indicates that the device is actively monitoring for the target object specified by the selected task template.
 
@@ -142,7 +153,9 @@ Task Templates:
 
    - When the Watcher identifies a **person**, it will trigger an alarm notification.
 
+<div align="center">
 <img src="https://files.seeedstudio.com/wiki/watcher_getting_started/task-temp-people-detected.png" width="180" />
+</div>
 
 - Pet Detection:
 
@@ -150,7 +163,9 @@ Task Templates:
 
    - If the Watcher detects a **cat**, it will trigger an alarm notification.
 
+<div align="center">
 <img src="https://files.seeedstudio.com/wiki/watcher_getting_started/task-temp-pet.png" width="180" />
+</div>
 
 - Gesture Detection:
 
@@ -158,7 +173,9 @@ Task Templates:
 
    - When the Watcher recognizes the **paper gesture**, it will trigger an alarm notification.
 
+<div align="center">
 <img src="https://files.seeedstudio.com/wiki/watcher_getting_started/task-temp-gesture.png" width="180" />
+</div>
 
 Each of these task templates has specific alarm triggering conditions based on the detection of their respective targets: humans, cats, or the paper gesture. By using these templates, you can quickly set up the Watcher to monitor for the desired object without the need for extensive configuration.
 
@@ -170,27 +187,37 @@ The SenseCraft APP allows you to send Tasks to your Watcher device. In this exam
 
 **1.** Open the SenseCraft APP and navigate to the chat window for your connected Watcher device.
 
+<div align="center">
 <img src="https://files.seeedstudio.com/wiki/watcher_getting_started/6.svg" width="400" />
+</div>
 
 **2.** In the chat window, either select the desired task from the available options or manually type in the command *If you see a candles, please notify me*. Send the command to your Watcher by tapping the send button or pressing enter.
 
 **3.** Upon receiving the command, Watcher will interpret it and break it down into a task flow consisting of **When**, **Do**, and **Capture Frequency** components.
 
+<div align="center">
 <img src="https://files.seeedstudio.com/wiki/watcher_getting_started/7.svg" width="400" />
+</div>
 
 Review the parsed task flow to ensure that Watcher has correctly understood your command. The app will display the interpreted task details for your verification. If any part of the task flow does not align with your intended command, you can modify the task details by accessing the **Detail Config** section within the app.
 
+<div align="center">
 <img src="https://files.seeedstudio.com/wiki/watcher_getting_started/8.svg" width="400" />
+</div>
 
 **4.** Once you have confirmed or adjusted the task details, click the **Run** button to send the finalized task to your Watcher.
 
 Watcher will download the task instructions, and once the download is complete, it will transform into a vigilant monitoring system, ready to detect any instances of candles.
 
+<div align="center">
 <img src="https://files.seeedstudio.com/wiki/watcher_getting_started/9.svg" width="600" />
+</div>
 
 **5.** If Watcher identifies a candles, it will send an alert based on the predefined settings, which may include flashing lights, audible alarms, and notifications through the SenseCraft APP.
 
+<div align="center">
 <img src="https://files.seeedstudio.com/wiki/watcher_getting_started/10.svg" width="400" />
+</div>
 
 
 **Please note that due to the time constraints of the task flow, there will be a minimum interval between consecutive alerts to avoid excessive notifications**.
@@ -210,7 +237,9 @@ The Watcher offers a convenient and intuitive way to send tasks or engage in con
    - Locate the Wheel Button on the top-right corner of the Watcher.
    - Press and hold the Wheel Button to enter the voice input interface.
 
-![](https://files.seeedstudio.com/wiki/watcher_getting_started/push_to_talk.gif)
+<div align="center">
+<img src="./assets/push_to_talk.gif" width="550" />
+</div>
 
 2. Speak Your Command or Message:
 
@@ -230,7 +259,9 @@ The Watcher offers a convenient and intuitive way to send tasks or engage in con
    - If the details are correct, confirm the task, and the Watcher will begin executing it according to the specified parameters.
    - If Watcher misunderstands your task, long press the scroll wheel button and you can continue through the dialogue to try to correct Watcher's understanding of the task. If you still can't understand it correctly after several attempts, we recommend that you use the SenseCraft APP to place the task.
 
+<div align="center">
 <img src="https://files.seeedstudio.com/wiki/watcher_getting_started/80.jpg" width="500" />
+</div>
 
 Tips for Optimal Usage:
 
@@ -250,11 +281,15 @@ By leveraging the Push to Talk feature, you can effortlessly send tasks and enga
 
 2. A confirmation popup will appear with two options: **Main Menu** and **End Task**. To terminate the task, either tap **End Task** on the screen or use the scroll wheel to navigate to "End Task" and press the scroll wheel button to confirm.
 
+<div align="center">
 <img src="https://files.seeedstudio.com/wiki/watcher_getting_started/end_task.png" width="180" />
+</div>
 
 3. Alternatively, you can end the task via the SenseCraft APP on your mobile device by pressing the **End** button on the task card.
 
+<div align="center">
 <img src="https://files.seeedstudio.com/wiki/watcher_getting_started/end-task-phone.png" width="200" />
+</div>
 
 
 
