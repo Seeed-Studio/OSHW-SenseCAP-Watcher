@@ -62,7 +62,21 @@
 
 ## License
 
+This project is licensed under the Apache License, Version 2.0 (the "License");
 
+You may not use this file except in compliance with the License.
+
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+
+See the License for the specific language governing permissions and limitations under the License.
+
+Please see the [LICENSE](./LICENSE) file for more details.
 
 ---
 
@@ -73,15 +87,12 @@ Special thanks to all contributors and supporters that starred this repository.
 **Our amazing contributors**:
 
 <a href="https://github.com/Seeed-Studio/OSHW-SenseCAP-Watcher/graphs/contributors">
-  <img alt="contributors" src="https://opencollective.com/affine/contributors.svg?width=890&button=false" />
+  <img src="https://contrib.rocks/image?repo=angular/angular-ja" />
 </a><br>
 
-Do you like this project? Please join us or [give](https://github.com/aregtech/areg-sdk/stargazers) a ⭐. This will help to attract more contributors.<br/>
-Do you have an idea or found a bug? Please open an [issue](https://github.com/aregtech/areg-sdk/issues) or start a [discussion](https://github.com/aregtech/areg-sdk/discussions).
+Do you like this project? Please join us or [give](https://github.com/Seeed-Studio/OSHW-SenseCAP-Watcher) a ⭐. This will help to attract more contributors.<br/>
+Do you have an idea or found a bug? Please open an [issue](https://github.com/Seeed-Studio/OSHW-SenseCAP-Watcher/issues/new/choose) or start a [discussion](https://github.com/Seeed-Studio/OSHW-SenseCAP-Watcher/discussions).
 
-<div align="right">[ <a href="#table-of-contents">↑ Back to top ↑</a> ]</div>
-
----
 
 **Follow us** at<br />
 
@@ -90,3 +101,6 @@ Do you have an idea or found a bug? Please open an [issue](https://github.com/ar
 [![Follow us on LinkedIn](https://img.shields.io/badge/LinkedIn-seeedstudio-blue?style=flat&logo=linkedin&logoColor=b0c0c0&labelColor=363D44)](https://www.linkedin.com/company/seeedstudio/)
 
 
+<div align="right">[ <a href="#table-of-contents">↑ Back to top ↑</a> ]</div>
+
+---
