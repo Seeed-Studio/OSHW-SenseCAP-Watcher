@@ -1,4 +1,7 @@
 <h1 align="center">SenseCAP Watcher</h1>
+
+<img alt="SenseCAP Watcher Readme" src="assets/watcher_banner.png"> </img>
+
 <div align="center">
 <a href="https://discord.gg/jGWQStEvEp"><img alt="Discord" src="https://img.shields.io/discord/862602258452578314?label=Join%20Community"></a>
 <a href="https://x.com/seeedstudio" ><img src="https://img.shields.io/twitter/follow/seeedstudio.svg?style=social" /> </a>
@@ -16,8 +19,6 @@
 <a href="https://github.com/Seeed-Studio/OSHW-SenseCAP-Watcher/issues"><img alt="GitHub Issues" src="https://img.shields.io/github/issues/Seeed-Studio/OSHW-SenseCAP-Watcher"></a>
 <a href="https://github.com/Seeed-Studio/OSHW-SenseCAP-Watcher/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Seeed-Studio/OSHW-SenseCAP-Watcher"></a>
 <a href="https://github.com/Seeed-Studio/OSHW-SenseCAP-Watcher/blob/main/LICENSE"><img alt="GitHub License" src="https://img.shields.io/github/license/Seeed-Studio/OSHW-SenseCAP-Watcher"></a>
-
-<img alt="SenseCAP Watcher Readme" src="assets/watcher_banner.png"> </img>
 
 </div>
 
@@ -351,6 +352,6 @@ Do you have an idea or found a bug? Please open an [issue](https://github.com/Se
 [![Follow us on LinkedIn](https://img.shields.io/badge/LinkedIn-seeedstudio-blue?style=flat&logo=linkedin&logoColor=b0c0c0&labelColor=363D44)](https://www.linkedin.com/company/seeedstudio/)
 
 
-<div align="right">[ <a href="#table-of-contents">↑ Back to top ↑</a> ]</div>
+<div align="right">[ <a href="#introduction">↑ Back to top ↑</a> ]</div>
 
 ---
