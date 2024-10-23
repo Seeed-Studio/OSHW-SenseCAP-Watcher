@@ -21,44 +21,43 @@
 
 </div>
 
-
----
-
 ## Introduction
 
----
+SenseCAP Watcher is built on ESP32S3, incorporating a Himax WiseEye2 HX6538 AI chip with Arm Cortex-M55 & Ethos-U55, excelling in image and vector data processing. Equipped with a camera, microphone, speaker, SenseCAP Watcher can see, hear, talk. Plus, with LLM-enabled SenseCraft suite, SenseCAP Watcher understands your commands, perceives its surroundings, and triggers actions accordingly.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ny22Z0cAIqE?si=cCiAjjdVj_AG2NHQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Table of contents
 
----
+
 
 ## Motivation
 
----
+
 
 ## Interface-centricity
 
----
+
 
 ## More than embedded
 
----
+
 
 ## Composition
 
----
+
 
 ## Clone sources
 
----
+
 
 ## Quick build
 
----
+
 
 ## Use cases and benefits
 
----
+
 
 ## License
 
