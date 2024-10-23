@@ -53,7 +53,9 @@ https://files.seeedstudio.com/wiki/watcher_getting_started/watcher-packaging.mp4
 
 To power on your Watcher device, press and hold the wheel button located on the upper right corner for approximately 3 seconds until the Seeed Studio logo appears on the screen.
 
+<div align="center">
 <img src="./assets/power_on.gif" width="450" />
+</div>
 
 Once the logo is displayed, release the button and allow the device to complete its initialization process. After a few moments, the Watcher will display its main menu, indicating that it is ready for use.
 
