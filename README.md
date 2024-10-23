@@ -79,29 +79,29 @@ To proceed with binding your Watcher to the SenseCraft app, follow these steps:
 
 **1.** On your Watcher, rotate the wheel button clockwise to enter the QR code interface for binding the device.
 
-![](https://files.seeedstudio.com/wiki/watcher_getting_started/1.svg | width=100)
+![](https://files.seeedstudio.com/wiki/watcher_getting_started/1.svg){: width="60%"}
 
 **2.** Open the SenseCraft app on your mobile device and tap the plus sign (+) in the top right corner to add your Watcher by scanning the QR code.
 
 **Ensure that your mobile device's Bluetooth permissions are enabled, as the binding process requires a Bluetooth connection.**
 
-![](https://files.seeedstudio.com/wiki/watcher_getting_started/2.svg)
+![](https://files.seeedstudio.com/wiki/watcher_getting_started/2.svg){: width="50%"}
 
 **3.** After successfully scanning the QR code, the app will navigate to the network configuration page. Select a 2.4GHz Wi-Fi network to connect your Watcher to the internet.
 
-![](https://files.seeedstudio.com/wiki/watcher_getting_started/3.svg)
+![](https://files.seeedstudio.com/wiki/watcher_getting_started/3.svg){: width="50%"}
 
 Tap the "Next" button to proceed.
 
 **4.** Choose a name for your Watcher and select an appropriate group for it.
 
-![](https://files.seeedstudio.com/wiki/watcher_getting_started/4.svg)
+![](https://files.seeedstudio.com/wiki/watcher_getting_started/4.svg){: width="50%"}
 
 Tap the "Finish" button to complete the setup process.
 
 **5.** The SenseCraft app will display a tutorial page, providing guidance on how to use your Watcher. Take a moment to familiarize yourself with the instructions.
 
-![](https://files.seeedstudio.com/wiki/watcher_getting_started/5.svg)
+![](https://files.seeedstudio.com/wiki/watcher_getting_started/5.svg){: width="50%"}
 
 Once the setup is complete, the app will open a chat window to communicate with your Watcher, while the Watcher will return to its main menu.
 
