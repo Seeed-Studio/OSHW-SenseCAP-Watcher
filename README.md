@@ -309,7 +309,7 @@ By leveraging the Push to Talk feature, you can effortlessly send tasks and enga
 SenseCAP source repository address:
 
 ```
-https://github.com/Seeed-Studio/SenseCAP-Watcher/
+https://github.com/Seeed-Studio/SenseCAP-Watcher-Firmware
 ```
 
 The project provides basic SDK for the SenseCAP Watcher, as well as the examples for getting started. It is based on the [ESP-IDF](https://github.com/espressif/esp-idf).
