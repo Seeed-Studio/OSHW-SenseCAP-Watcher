@@ -221,7 +221,7 @@ Watcher will download the task instructions, and once the download is complete, 
 **5.** If Watcher identifies a candles, it will send an alert based on the predefined settings, which may include flashing lights, audible alarms, and notifications through the SenseCraft APP.
 
 <div align="center">
-<img src="https://files.seeedstudio.com/wiki/watcher_getting_started/10.svg" width="400" />
+<img src="./assets//10.svg" width="400" />
 </div>
 
 
