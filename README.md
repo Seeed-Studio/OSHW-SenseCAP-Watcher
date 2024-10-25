@@ -22,13 +22,13 @@
 
 </div>
 
-## Introduction
+## :grinning: Introduction
 
 SenseCAP Watcher is built on ESP32S3, incorporating a Himax WiseEye2 HX6538 AI chip with Arm Cortex-M55 & Ethos-U55, excelling in image and vector data processing. Equipped with a camera, microphone, speaker, SenseCAP Watcher can see, hear, talk. Plus, with LLM-enabled SenseCraft suite, SenseCAP Watcher understands your commands, perceives its surroundings, and triggers actions accordingly.
 
 [![Watcher Introduction](https://img.youtube.com/vi/ny22Z0cAIqE/0.jpg)](https://www.youtube.com/watch?v=ny22Z0cAIqE)
 
-## Table of Open Source Material
+## :smile: Table of Open Source Material
 
 - [📁 Firmwave](./Firmware/): Watcher's factory firmware bin files.
 
@@ -51,7 +51,7 @@ SenseCAP Watcher is built on ESP32S3, incorporating a Himax WiseEye2 HX6538 AI c
 - [📁 assets](./assets/): Image material used in the README.
 
 
-## SenseCAP Watcher Quick Start Guide
+## :wink: SenseCAP Watcher Quick Start Guide
 
 ### Must-Do
 
@@ -306,7 +306,7 @@ By leveraging the Push to Talk feature, you can effortlessly send tasks and enga
 </div>
 
 
-## Flash Firmware
+## :kissing: Flash Firmware
 
 When you download the firmware for SenseCAP Watcher, you will notice that it comes with two different firmwares, so keep an eye out for the distinction.
 
@@ -461,7 +461,7 @@ to setup the built toolchain used by SSCMA examples. Currently we're using the l
     idf.py --port /dev/ttyACM0 flash monitor
     ```
 
-## Table of Wiki Documentation
+## :dizzy: Table of Wiki Documentation
 
 Introducing the Watcher Product Catalogue, your comprehensive guide to setting up, using, and maintaining your Watcher device. Discover the key features, customization options, and mounting possibilities that make Watcher the perfect monitoring solution. With detailed instructions, troubleshooting tips, and specifications, this catalogue empowers you to fully utilize your Watcher and experience peace of mind through advanced surveillance technology.
 
@@ -531,7 +531,7 @@ Introducing the Watcher Product Catalogue, your comprehensive guide to setting u
 
 
 
-## License
+## :sunglasses: License
 
 This project is licensed under the Apache License, Version 2.0 (the "License");
 
@@ -551,7 +551,7 @@ Please see the [LICENSE](./LICENSE) file for more details.
 
 ---
 
-## Thank you all!![![](https://raw.githubusercontent.com/aregtech/areg-sdk/master/docs/img/pin.svg)](#thank-you)
+## :hugs: Thank you all!![![](https://raw.githubusercontent.com/aregtech/areg-sdk/master/docs/img/pin.svg)](#thank-you)
 
 Special thanks to all contributors and supporters that starred this repository.
 
