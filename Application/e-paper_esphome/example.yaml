@@ -1,0 +1,114 @@
+esphome:
+  name: epaper
+  friendly_name: epaper
+  platformio_options:
+    build_flags: -DBOARD_HAS_PSRAM
+    board_build.arduino.memory_type: qio_opi
+    board_build.f_flash: 80000000L
+    board_build.flash_mode: qio   
+
+esp32:
+  board: esp32-s3-devkitc-1
+  framework:
+    type: arduino
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+
+ota:
+  - platform: esphome
+
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "Epaper Fallback Hotspot"
+    password: "ROnejEXgmmPe"
+
+captive_portal:
+
+time:
+  - platform: homeassistant
+    id: homeassistant_time
+
+text_sensor:
+  - platform: homeassistant
+    id: weather_now
+    entity_id: sensor.weathercurrent
+  - platform: homeassistant
+    id: watcher_alarm
+    entity_id: sensor.alarm
+
+sensor:
+  - platform: homeassistant
+    id: temp_now
+    entity_id: sensor.tempcurrent
+  - platform: homeassistant
+    id: heart_rate
+    entity_id: sensor.seeedstudio_mr60bha2_kit_cca68c_real_time_heart_rate
+  - platform: homeassistant
+    id: respiratory_rate
+    entity_id: sensor.seeedstudio_mr60bha2_kit_cca68c_real_time_respiratory_rate
+  - platform: homeassistant
+    id: distance
+    entity_id: sensor.seeedstudio_mr60bha2_kit_cca68c_distance_to_detection_object
+  - platform: homeassistant
+    id: illuminance
+    entity_id: sensor.seeedstudio_mr60bha2_kit_cca68c_seeed_mr60bha2_illuminance
+  - platform: homeassistant
+    id: humidity
+    entity_id: sensor.air_humidity
+  - platform: homeassistant
+    id: temperature
+    entity_id: sensor.temperature
+
+font:
+  - file: "gfonts://Inter@900"
+    id: big
+    size: 120
+  - file: "gfonts://Inter@900"
+    id: medium
+    size: 60
+  - file: "gfonts://Inter@700"
+    id: small
+    size: 30
+  - file: "gfonts://Inter@700"
+    id: tiny
+    size: 24
+
+spi:
+  clk_pin: GPIO7
+  mosi_pin: GPIO9
+
+display:
+  - platform: waveshare_epaper
+    cs_pin: GPIO2
+    dc_pin: GPIO4
+    busy_pin:
+      number: GPIO6
+      inverted: true
+    reset_pin: GPIO1
+    reset_duration: 2ms
+    model: 7.50inV2
+    update_interval: 10s
+    lambda: |-
+      // Date
+      it.strftime(400, 30, id(small), TextAlign::CENTER_HORIZONTAL, "%A %B %d, %Y", id(homeassistant_time).now());
+      it.strftime(400, 60, id(big), TextAlign::CENTER_HORIZONTAL, "%I:%M%p", id(homeassistant_time).now());
+      // mmwave sensor
+      it.printf(28, 240, id(small), "mmWave Sensor");
+      it.printf(20, 300, id(tiny), "Distance: %.2f", id(distance).state);
+      it.printf(20, 330, id(tiny), "Real-time heart rate: %.2f%", id(heart_rate).state);
+      it.printf(20, 360, id(tiny), "Real-time respiratory rate: %.2f", id(respiratory_rate).state);
+      it.printf(20, 390, id(tiny), "Illuminance: %.2f flux", id(illuminance).state);
+      // watcher
+      it.printf(470, 240, id(small), "SenseCAP Watcher");
+      it.printf(450, 300, id(tiny), "Alarm: %s", id(watcher_alarm).state.c_str());
+      it.printf(450, 330, id(tiny), "Temperature: %.2f%°", id(temperature).state);
+      it.printf(450, 360, id(tiny), "Humidity: %.2f%%", id(humidity).state);
+    
