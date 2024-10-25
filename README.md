@@ -13,8 +13,10 @@
 <a href="https://wa.me/?text=Awesome%20communication%20engine!%5Cn%20https%3A%2F%2Fgithub.com%2FSeeed-Studio%2FOSHW-SenseCAP-Watcher" target="_blank"><img alt="Share on Whatsapp" src="https://img.shields.io/twitter/url?url=https%3A%2F%2Fwww.facebook.com%2Fseeedstudiosz%2F&style=social&logo=Whatsapp&label=Whatsapp"></a>&nbsp;
 <a href="mailto:?subject=Awesome%20Physical%20AI%20Agent&body=Checkout%20this%20awesome%20physical%20ai%20agent%3A%0Ahttps%3A//github.com/Seeed-Studio/OSHW-SenseCAP-Watcher" target="_blank"><img alt="Share on Mail" src="https://img.shields.io/twitter/url?url=https%3A%2F%2Fwww.facebook.com%2Fseeedstudiosz%2F&style=social&logo=GMail&label=GMail"></a>
 <br>
-<a href="https://github.com/Seeed-Studio/OSHW-SenseCAP-Watcher/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Seeed-Studio/OSHW-SenseCAP-Watcher"></a>
-<a href="https://github.com/Seeed-Studio/OSHW-SenseCAP-Watcher/network/members"><img alt="GitHub forks" src="https://img.shields.io/github/forks/Seeed-Studio/OSHW-SenseCAP-Watcher"></a>
+<a href="https://github.com/Seeed-Studio/OSHW-SenseCAP-Watcher/stargazers"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/Seeed-Studio/OSHW-SenseCAP-Watcher
+"></a>
+<a href="https://github.com/Seeed-Studio/OSHW-SenseCAP-Watcher/network/members"><img alt="GitHub forks" src="https://img.shields.io/github/forks/Seeed-Studio/OSHW-SenseCAP-Watcher
+"></a>
 <a href="https://github.com/Seeed-Studio/OSHW-SenseCAP-Watcher/pulls"><img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/Seeed-Studio/OSHW-SenseCAP-Watcher?label=pull%20request"></a>
 <a href="https://github.com/Seeed-Studio/OSHW-SenseCAP-Watcher/issues"><img alt="GitHub Issues" src="https://img.shields.io/github/issues/Seeed-Studio/OSHW-SenseCAP-Watcher"></a>
 <a href="https://github.com/Seeed-Studio/OSHW-SenseCAP-Watcher/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/Seeed-Studio/OSHW-SenseCAP-Watcher"></a>
