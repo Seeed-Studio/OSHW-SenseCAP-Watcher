@@ -38,11 +38,15 @@ You will see these messages when the device is powered up and switched on.
 
 If you are using Linux/MacOS, you can flash Watcher's firmware using the command line.
 
-You can use the following two commands to complete the ESP32 firmware flash.
+You can use the following commands to complete the ESP32 firmware flash.
 
 ```
 pip3 install --upgrade esptool
- 
+
+# firstly backup the factory information partition which contains the credentials for connecting the SenseCraft server
+esptool.py --chip esp32s3 --baud 2000000 --before default_reset --after hard_reset --no-stub read_flash 0x9000 204800 nvsfactory.bin
+
+# flash the firmware
 esptool.py --chip esp32s3 -b 2000000 --before default_reset --after hard_reset write_flash --flash_mode dio --flash_size 32MB --flash_freq 80m 0x0 bootloader/bootloader.bin 0x8000 partition_table/partition-table.bin 0x10d000 ota_data_initial.bin 0x110000 factory_firmware.bin 0x1910000 srmodels/srmodels.bin 0x1a10000 storage.bin
 ```
 
