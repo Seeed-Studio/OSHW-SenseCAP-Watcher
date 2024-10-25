@@ -53,17 +53,17 @@ SenseCAP Watcher is built on ESP32S3, incorporating a Himax WiseEye2 HX6538 AI c
 
 ## :wink: SenseCAP Watcher Quick Start Guide
 
-### Must-Do
+### :point_right: Must-Do
 
 Before using Watcher as a space assistant, we must ensure that the following three steps are performed successfully, which is the basis for all subsequent steps.
 
-#### Step 1. Installation Packaging
+#### :point_right: Step 1. Installation Packaging
 
 The Watcher comes with a unique packaging that doubles as a stylish, calendar-like stand. By placing the Watcher inside this stand, you can create an attractive decoration for your home. Follow the step-by-step instructions below and refer to the accompanying video for a visual guide on how to install your Watcher in its stand.
 
 https://files.seeedstudio.com/wiki/watcher_getting_started/watcher-packaging.mp4
 
-#### Step 2. Power On
+#### :point_right: Step 2. Power On
 
 To power on your Watcher device, press and hold the wheel button located on the upper right corner for approximately 3 seconds until the Seeed Studio logo appears on the screen.
 
@@ -75,7 +75,7 @@ Once the logo is displayed, release the button and allow the device to complete 
 
 **If the device won't turn on with a long press, the device may be low on power and you may need to connect a cable to power it up before you can wake up the Watcher.**
 
-#### Step 3. Device Binding
+#### :point_right: Step 3. Device Binding
 
 **[SenseCraft Pro](https://wiki.seeedstudio.com/watcher_price/) will automatically activate the trial service when your device is tethered to the SenseCraft APP.**
 
@@ -133,11 +133,11 @@ Once the setup is complete, the app will open a chat window to communicate with 
 
 With the binding process finished, your Watcher is now connected to the SenseCraft app, and you can start exploring its features and capabilities. The app serves as a convenient way to interact with your Watcher, adjust settings, and receive notifications remotely.
 
-### Schedule a task for Watcher
+### :point_right: Schedule a task for Watcher
 
 Next, select the method you want to use to schedule an executable task for Watcher.
 
-#### Built-in task templates
+#### :point_right: Built-in task templates
 
 To run a task from the Task Templates on your Watcher, follow these steps:
 
@@ -161,7 +161,7 @@ If the target object moves out of the Watcher's view or is no longer detected, t
 
 Task Templates:
 
-- Human Detection:
+- :red_haired_man: Human Detection:
 
    - This task template is designed to detect the presence of human beings.
 
@@ -171,7 +171,7 @@ Task Templates:
 <img src="https://files.seeedstudio.com/wiki/watcher_getting_started/task-temp-people-detected.png" width="180" />
 </div>
 
-- Pet Detection:
+- :smirk_cat: Pet Detection:
 
    - The Pet Detection task template focuses on recognizing cats or dogs.
 
@@ -181,7 +181,7 @@ Task Templates:
 <img src="https://files.seeedstudio.com/wiki/watcher_getting_started/task-temp-pet.png" width="180" />
 </div>
 
-- Gesture Detection:
+- :vulcan_salute: Gesture Detection:
 
    - This task template is configured to identify the "paper" hand gesture.
 
@@ -193,7 +193,7 @@ Task Templates:
 
 Each of these task templates has specific alarm triggering conditions based on the detection of their respective targets: humans, cats, or the paper gesture. By using these templates, you can quickly set up the Watcher to monitor for the desired object without the need for extensive configuration.
 
-#### Through the APP
+#### :point_right: Through the APP
 
 **Fees may apply for using some of SenseCraft AI's services, please refer to the documentation below for details: [SenseCraft AI for Watcher Plans and Benefits](https://wiki.seeedstudio.com/watcher_price/)**
 
@@ -240,7 +240,7 @@ By following these steps, you can effectively send commands to your Watcher usin
 
 Remember to regularly review and adjust your Watcher's settings and task flows to ensure optimal performance and alignment with your monitoring requirements. For a more detailed description and explanation of the APP's tasks and options, as well as a detailed description of the intervals, please read **[Watcher Task Assignment Guideline](https://wiki.seeedstudio.com/getting_started_with_watcher_task/)** to learn more.
 
-#### By Voice
+#### :point_right: By Voice
 
 **Fees may apply for using some of SenseCraft AI's services, please refer to the documentation below for details: [SenseCraft AI for Watcher Plans and Benefits](https://wiki.seeedstudio.com/watcher_price/)**
 
@@ -289,7 +289,7 @@ By leveraging the Push to Talk feature, you can effortlessly send tasks and enga
 **If you encounter an error of **0x7002**, it means that the current Watcher's network status is not good and the audio service call failed, please change the network or location and retry again.**
 
 
-### To end a running task
+### :point_right: To end a running task
 
 1. Tap the screen once or press the wheel button.
 
@@ -314,7 +314,7 @@ When you download the firmware for SenseCAP Watcher, you will notice that it com
 
 2. Himax Firmware
 
-### For ESP32 Firmware
+### :point_right: For ESP32 Firmware
 
 **Please be especially careful with the partition address of the flash firmware to avoid incorrectly erasing the SenseCAP Watcher's own device information (EUI, etc.), otherwise the device may not be able to connect to the SenseCraft server properly! Please make a note of the necessary information about the device before flashing the firmware to ensure that there is a way to recover it!**
 
@@ -354,7 +354,7 @@ Follow the diagram below to enter the correct address and select the correct fir
 
 **If you find that there is no progress when flashing, then the wrong flash serial port may be selected and you may need to switch to another one.**
 
-### For Himax Firmware
+### :point_right: For Himax Firmware
 
 **We do not recommend that any user make any kind of modifications to the Himax firmware. The methods we provide are limited to use for restoring the firmware in special cases.**
 
@@ -371,7 +371,7 @@ sscma.cli flasher -f firmware.img
 ```
 
 
-## Quick Build SenseCAP Watcher ESP32's Firmware
+## :dragon_face: Quick Build SenseCAP Watcher ESP32's Firmware
 
 SenseCAP Watcher source repository address:
 
@@ -381,15 +381,15 @@ https://github.com/Seeed-Studio/SenseCAP-Watcher-Firmware
 
 The project provides basic SDK for the SenseCAP Watcher, as well as the examples for getting started. It is based on the [ESP-IDF](https://github.com/espressif/esp-idf).
 
-### Getting Started
+### :point_right: Getting Started
 
-#### Install ESP IDF
+#### :point_right: Install ESP IDF
 
 Follow instructions in this guide
 [ESP-IDF - Get Started](https://docs.espressif.com/projects/esp-idf/en/latest/get-started/index.html)
 to setup the built toolchain used by SSCMA examples. Currently we're using the latest version `v5.1`.
 
-#### Clone and Setup the Repository
+#### :point_right: Clone and Setup the Repository
 
 1. Clone our repository.
 
@@ -409,7 +409,7 @@ to setup the built toolchain used by SSCMA examples. Currently we're using the l
     git submodule update --init
     ```
 
-#### Build and Run Examples
+#### :point_right: Build and Run Examples
 
 1. Go to examples folder and list all available examples.
 
@@ -451,7 +451,7 @@ to setup the built toolchain used by SSCMA examples. Currently we're using the l
     idf.py --port /dev/ttyACM0 monitor
     ```
 
-##### Tip
+##### :point_right: Tip
 
 - Use `Ctrl+]` to exit monitor.
 
@@ -469,11 +469,11 @@ Introducing the Watcher Product Catalogue, your comprehensive guide to setting u
 <img src="https://files.seeedstudio.com/wiki/watcher_getting_started/Infrastructure.png" width="800" />
 </div>
 
-- [Quick start guide](https://wiki.seeedstudio.com/getting_started_with_watcher/)
+- :open_book: [Quick start guide](https://wiki.seeedstudio.com/getting_started_with_watcher/)
 
-- [Price and benefits](https://wiki.seeedstudio.com/watcher_price/)
+- :open_book: [Price and benefits](https://wiki.seeedstudio.com/watcher_price/)
 
-- [Product Overview](http://wiki.seeedstudio.com/product_overview_with_watcher/)
+- :open_book: [Product Overview](http://wiki.seeedstudio.com/product_overview_with_watcher/)
 
     - [Hardware Overview](http://wiki.seeedstudio.com/watcher_hardware_overview/)
 
@@ -481,7 +481,7 @@ Introducing the Watcher Product Catalogue, your comprehensive guide to setting u
 
     - [Task Assignment Guideline](http://wiki.seeedstudio.com/getting_started_with_watcher_task/)
 
-- [Software Framework Overview](http://wiki.seeedstudio.com/watcher_software_framework_overview/)
+- :open_book: [Software Framework Overview](http://wiki.seeedstudio.com/watcher_software_framework_overview/)
 
     - [SenseCraft APP Introduction](http://wiki.seeedstudio.com/sensecap_app_introduction/)
 
@@ -489,7 +489,7 @@ Introducing the Watcher Product Catalogue, your comprehensive guide to setting u
 
     - [Deploy Watcher's AI Capabilities Locally](http://wiki.seeedstudio.com/watcher_local_deploy/)
 
-- [Notification](http://wiki.seeedstudio.com/notifications_with_watcher_main_page/)
+- :open_book: [Notification](http://wiki.seeedstudio.com/notifications_with_watcher_main_page/)
 
     - [UART Output](http://wiki.seeedstudio.com/uart_output/)
 
@@ -521,7 +521,7 @@ Introducing the Watcher Product Catalogue, your comprehensive guide to setting u
 
             - [Watcher & Node-RED to WhatsApp](http://wiki.seeedstudio.com/watcher_node_red_to_whatsapp/)
 
-- [Application](http://wiki.seeedstudio.com/applications_with_watcher_main_page/)
+- :open_book: [Application](http://wiki.seeedstudio.com/applications_with_watcher_main_page/)
 
     - [Use Case](http://wiki.seeedstudio.com/use_case/)
 
