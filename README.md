@@ -577,6 +577,6 @@ Do you have an idea or found a bug? Please open an [issue](https://github.com/Se
 [![Follow us on LinkedIn](https://img.shields.io/badge/LinkedIn-seeedstudio-blue?style=flat&logo=linkedin&logoColor=b0c0c0&labelColor=363D44)](https://www.linkedin.com/company/seeedstudio/)
 
 
-<div align="right">[ <a href="#introduction">↑ Back to top ↑</a> ]</div>
+<div align="right">[ <a href="#grinning-introduction">↑ Back to top ↑</a> ]</div>
 
 ---
