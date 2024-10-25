@@ -30,7 +30,11 @@ SenseCAP Watcher is built on ESP32S3, incorporating a Himax WiseEye2 HX6538 AI c
 
 ## Table of Open Source Material
 
-- [📁 Firmwave](./Firmware/): Watcher's factory firmware, project code.
+- [📁 Firmwave](./Firmware/): Watcher's factory firmware bin files.
+
+    - [ ESP32](./Firmware/ESP32/): SenseCAP Watcher ESP32 main chip firmware.
+
+    - [ Himax](./Firmware/Himax/): SenseCAP Watcher Himax AI Chip firmware.
 
 - [📁 Hardware](./Hardware/): Open source hardware documentation available for Watcher.
 
@@ -41,6 +45,11 @@ SenseCAP Watcher is built on ESP32S3, incorporating a Himax WiseEye2 HX6538 AI c
     -[📎Himax HX6538-A Datasheet](./Hardware/HX6538_datasheet.pdf)
 
 - [📁 Documentation](./Documentation/): All Wiki documents about Watcher.
+
+- [📁 Applications](./Applications/): Application projects using SenseCAP Watcher will be continuously updated.
+
+- [📁 assets](./assets/): Image material used in the README.
+
 
 ## SenseCAP Watcher Quick Start Guide
 
@@ -548,8 +557,8 @@ Special thanks to all contributors and supporters that starred this repository.
 
 **Our amazing contributors**:
 
-<a href="https://github.com/Seeed-Studio/OSHW-SenseCAP-Watcher/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=angular/angular-ja" />
+<a href="https://github.com/Seeed-Studio/SenseCAP-Watcher-Firmware/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Seeed-Studio/SenseCAP-Watcher-Firmware" />
 </a><br><br><br>
 
 Do you like this project? Please join us or [give](https://github.com/Seeed-Studio/OSHW-SenseCAP-Watcher) a ⭐. This will help to attract more contributors.
