@@ -31,7 +31,7 @@ SenseCAP Watcher is built on ESP32S3, incorporating a Himax WiseEye2 HX6538 AI c
 
 ## :smile: Table of Open Source Material
 
-- [📁 Firmwave](./Firmware/): Watcher's factory firmware bin files.
+- [📁 Firmware](./Firmware/): Watcher's factory firmware bin files.
 
     - [ ESP32](./Firmware/ESP32/): SenseCAP Watcher ESP32 main chip firmware.
 
